@@ -1,0 +1,37 @@
+.main-header{
+    padding-bottom: 2em;
+    flex: auto;
+    background-color: red;
+}
+
+.container{
+    display: flex;
+    min-height: 500px;
+}
+
+.Lside{
+    background-color: violet;
+    float: left;
+    padding: 5px;
+}
+
+
+.Content{
+    padding-left: 10px;
+    background-color: yellow;
+    float: none;
+    flex: 1;
+}
+
+.RSide{
+    padding: 10px;
+    background-color: lightblue;
+    min-width: 100pt;
+    float: right;
+}
+.main-footer{
+    margin: auto;
+    font-weight: bold;
+    padding: 1em;
+    background-color: blue;
+}
